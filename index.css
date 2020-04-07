@@ -1,0 +1,55 @@
+#button
+{
+    position: absolute;
+    width: 400px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header
+{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto";
+    font-size: 69px;
+    width: 100vw;
+    color: white;
+}
+
+#topheader
+{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto";
+    font-size: 20px;
+    width: 100vw;
+    color: white;
+}
+
+#middleheader
+{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto";
+    font-size: 69px;
+    width: 100vw;
+    color: white;
+}
+
+#document
+{
+    background: #576164;
+}
