@@ -12,7 +12,7 @@ function getcases()
     .then(response => response.json()).then(function(data){
         cases = data.total_cases;
         casesint = parseFloat(cases.replace(/,/g, ''));
-        document.getElementById("header").innerHTML = "For "  + cases + " cases";
+        document.getElementById("header").innerHTML = "For "  + cases + " Cases";
         if (casesint >= 10000000)
         {
             document.getElementById("button").src = "reddiamond.png";
